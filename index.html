@@ -5,7 +5,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="prepared/shower/themes/ribbon/styles/screen-16x10.css">
+	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+
+	<style>
+		.slide.clean::after {
+			visibility: hidden;
+		}
+	</style>
 </head>
 <body class="shower list">
 
@@ -13,7 +19,7 @@
 		<h1>Git in WebStorm</h1>
 	</header>
 
-	<section class="slide" id="cover">
+	<section class="slide clean" id="cover">
 		<h2>Git in WebStorm</h2>
 		<p>Миша Баранов, pitercss__18</p>
 		<figure>
@@ -35,8 +41,16 @@
 		</style>
 	</section>
 
+	<section class="slide black clean" >
+		<figure><img src="pictures/arrival.png" alt="" class="cover" width="800"></figure>
+	</section>
+
+	<section class="slide black clean" >
+		<figure><img src="pictures/istock_loading@1x.jpg" alt="" class="cover"></figure>
+	</section>
+
 	<section class="slide">
-		<h2>Зачем?</h2>
+		<h2>Почему не консоль/Github Desktop?</h2>
 
 		<ul>
 			<li class="next">Нет переключения контекста</li>
